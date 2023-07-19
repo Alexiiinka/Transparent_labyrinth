@@ -6,6 +6,7 @@ TagManager:
   tags:
   - snowTag
   - lavaTag
+  - fish
   layers:
   - Default
   - TransparentFX

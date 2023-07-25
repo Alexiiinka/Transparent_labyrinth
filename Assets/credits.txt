@@ -1,1 +1,4 @@
 Font by Kimberly Geswein (kimberlygeswein.com) - ShadowsIntoLight
+Food icons by Angelina Avgustova (UnityAssets)
+Penguin character by Nine Pines Animation (UnityAssets)
+Textures (lava, snow) by LowlyPoly (UnityAssets)

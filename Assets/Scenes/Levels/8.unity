@@ -627,7 +627,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fishToBeEaten: 5
   fishAlreadyEaten: 0
-  gameFinished: 0
   gameOn: 1
   panelNextLvl: {fileID: 1474816583}
   PsFish: {fileID: 1162613767}

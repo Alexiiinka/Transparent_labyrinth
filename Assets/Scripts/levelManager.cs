@@ -15,7 +15,7 @@ public class levelManager : MonoBehaviour
 
     void Start()
     {
-        t_fishToEat.text = "Living fish: " + fishToBeEaten.ToString();
+        t_fishToEat.text = "Fish to eat: " + fishToBeEaten.ToString();
     }
     void Update()
     {

@@ -1576,8 +1576,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 203.38}
-  m_SizeDelta: {x: 109.313, y: 28.3962}
+  m_AnchoredPosition: {x: 1.6554, y: 203.38}
+  m_SizeDelta: {x: 144.7867, y: 28.3962}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &752987867241785610
 CanvasRenderer:
@@ -1607,7 +1607,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Living fish: 0'
+  m_text: 'Fish to eat: 0'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6d37512e24df5464690977520705e598, type: 2}
   m_sharedMaterial: {fileID: 8260785271614150522, guid: 6d37512e24df5464690977520705e598, type: 2}
@@ -1650,7 +1650,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}

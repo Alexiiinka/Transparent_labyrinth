@@ -97,8 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: a805a1558b81ea84ba0011176abca0b9, type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: a569af99da18687499b6c5ccc857d604, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -766,7 +766,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fishToBeEaten: 10
   fishAlreadyEaten: 0
-  gameFinished: 0
   gameOn: 1
   panelNextLvl: {fileID: 1474816583}
   PsFish: {fileID: 1162613767}

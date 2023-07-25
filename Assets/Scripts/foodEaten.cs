@@ -22,7 +22,7 @@ public class foodEaten : MonoBehaviour
             eaten = true;
             gameObject.GetComponent<Animator>().enabled = false;
             lvManagerSc.fishAlreadyEaten += 1;
-            lvManagerSc.t_fishToEat.text = "Living fish: " + (lvManagerSc.fishToBeEaten - lvManagerSc.fishAlreadyEaten).ToString();
+            lvManagerSc.t_fishToEat.text = "Fish to eat: " + (lvManagerSc.fishToBeEaten - lvManagerSc.fishAlreadyEaten).ToString();
         }
     }
 }

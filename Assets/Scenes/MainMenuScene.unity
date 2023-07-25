@@ -155,10 +155,10 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 38c3834e5793c2146a09b16040160cc3, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 0.5
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1372,6 +1372,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4639611618736325300, guid: 5029e9388dc8f0e4ea0c95c487593634, type: 3}
+      propertyPath: clips.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4639611618736325300, guid: 5029e9388dc8f0e4ea0c95c487593634, type: 3}
+      propertyPath: clips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 7825f48c7fc64f64fae86c374d58a863, type: 3}
+    - target: {fileID: 4639611618736325300, guid: 5029e9388dc8f0e4ea0c95c487593634, type: 3}
+      propertyPath: clips.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 46378538323d8b346ac67998a2ec0907, type: 3}
+    - target: {fileID: 4639611618736325300, guid: 5029e9388dc8f0e4ea0c95c487593634, type: 3}
+      propertyPath: clips.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 14e5d10ae0e21824187c2ee5138662c9, type: 3}
+    - target: {fileID: 4639611618736325300, guid: 5029e9388dc8f0e4ea0c95c487593634, type: 3}
+      propertyPath: clips.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 38c3834e5793c2146a09b16040160cc3, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5029e9388dc8f0e4ea0c95c487593634, type: 3}
 --- !u!1001 &4690173128868925815

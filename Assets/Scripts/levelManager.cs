@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class levelManager : MonoBehaviour
 {
@@ -8,14 +9,20 @@ public class levelManager : MonoBehaviour
     public int fishAlreadyEaten = 0;
     public bool gameFinished = false;
     public bool gameOn = true;
+    [SerializeField] GameObject panelNextLvl;
+    [SerializeField] ParticleSystem PsFish;
     // Start is called before the first frame update
 
     // Update is called once per frame
     void Update()
     {
-        if (fishAlreadyEaten == fishToBeEaten)
+        if (fishAlreadyEaten == fishToBeEaten && gameOn)
         {
-            gameFinished = true;
+            //gameFinished = true;
+            Debug.Log(PsFish.isPlaying);
+            PsFish.Play();
+            gameOn = false;
+            panelNextLvl.SetActive(true);
         }
     }
 

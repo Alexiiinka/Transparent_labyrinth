@@ -146,8 +146,8 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 192
-  radiusGround: 0.2
-  groundOffset: {x: 0, y: -0.73}
+  radiusGround: 0.23
+  groundOffset: {x: 0, y: -0.72}
   gizmoColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!70 &7553636056848245047
 CapsuleCollider2D:

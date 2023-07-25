@@ -42,6 +42,11 @@ public class movePenguin : MonoBehaviour
         {
             Move();
         }
+        else
+        {
+            characterAnim.SetBool("running", false);
+            playerRb.velocity = new Vector2(0, playerRb.velocity.y);
+        }
     }
 
     void Move()

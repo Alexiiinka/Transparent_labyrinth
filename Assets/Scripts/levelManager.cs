@@ -11,11 +11,15 @@ public class levelManager : MonoBehaviour
     public bool gameOn = true;
     [SerializeField] GameObject panelNextLvl;
     [SerializeField] ParticleSystem PsFish;
-    // Start is called before the first frame update
+    public TMPro.TMP_Text t_fishToEat;
 
-    // Update is called once per frame
+    void Start()
+    {
+        t_fishToEat.text = "Living fish: " + fishToBeEaten.ToString();
+    }
     void Update()
     {
+
         if (fishAlreadyEaten == fishToBeEaten && gameOn)
         {
             //gameFinished = true;

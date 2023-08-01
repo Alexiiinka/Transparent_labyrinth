@@ -7,17 +7,6 @@ public class triggersBehaviorPengu : MonoBehaviour
 
     [SerializeField] Sprite lavaOn, lavaOff;
     [SerializeField] Camera mainCam, secondCam; 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     void OnTriggerEnter2D(Collider2D col)
     {
@@ -26,7 +15,6 @@ public class triggersBehaviorPengu : MonoBehaviour
             col.GetComponent<SpriteRenderer>().sprite = lavaOn;
             secondCam.enabled = true;
             mainCam.enabled = false;
-            
         }
     }
 

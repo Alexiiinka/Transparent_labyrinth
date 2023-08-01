@@ -21,8 +21,8 @@ public class foodEaten : MonoBehaviour
             transform.localScale = new Vector3 (-transform.localScale.x, transform.localScale.y, transform.localScale.z);
             eaten = true;
             gameObject.GetComponent<Animator>().enabled = false;
-            lvManagerSc.fishAlreadyEaten += 1;
-            lvManagerSc.t_fishToEat.text = "Fish to eat: " + (lvManagerSc.fishToBeEaten - lvManagerSc.fishAlreadyEaten).ToString();
+            lvManagerSc.fishAlreadyEaten++;
+            lvManagerSc.t_fishToEat.text = $"Fish to eat:  {lvManagerSc.fishToBeEaten - lvManagerSc.fishAlreadyEaten}";
         }
     }
 }

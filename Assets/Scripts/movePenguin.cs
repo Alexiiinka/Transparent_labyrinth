@@ -5,7 +5,7 @@ using UnityEngine;
 public class movePenguin : MonoBehaviour
 {
     levelManager levelMgSc;
-    [SerializeField] float speed = 2.0f, jumpHeight = 5.0f; //2,500 -translate
+    [SerializeField] float speed = 2.0f, jumpHeight = 5.0f;
     Rigidbody2D playerRb;
     Transform groundCheck;
     float horizont, vertic;
@@ -35,7 +35,6 @@ public class movePenguin : MonoBehaviour
         Gizmos.DrawWireSphere((Vector2)transform.position + groundOffset, radiusGround);
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
         if (levelMgSc.gameOn)

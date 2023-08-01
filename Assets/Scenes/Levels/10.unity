@@ -6522,7 +6522,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7553636056848245046, guid: d04c911b48bb81c49878668a2d5b506a, type: 3}
       propertyPath: jumpHeight
-      value: 300
+      value: 350
       objectReference: {fileID: 0}
     - target: {fileID: 7553636056848245047, guid: d04c911b48bb81c49878668a2d5b506a, type: 3}
       propertyPath: m_Material
